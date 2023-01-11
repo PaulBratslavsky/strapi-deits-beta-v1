@@ -158,4 +158,4 @@ We can see here that our user realationship is mising.
 
 ![[Screenshot 2023-01-10 at 5.54.40 PM.png]]
 
-Currently the import does not generate your schema so your target Strapi project should have matching schema and content types.
+Currently the import does not generate your schema so your target Strapi project should have matching schema and content types.# strapi-deits-beta-v1
