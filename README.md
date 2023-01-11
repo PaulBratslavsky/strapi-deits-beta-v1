@@ -9,15 +9,15 @@ Once you create your content type and dummy data you can export it by using the 
 
 Our content type structure.
 
-![[Screenshot 2023-01-10 at 6.00.27 PM.png]]
+![Screenshot 2023-01-10 at 6 00 27 PM](https://user-images.githubusercontent.com/6153188/211882984-904f2cae-0317-40c5-92b3-4bd85e949fe5.png)
 
 Here we have added our dummy data.
 
-![[Screenshot 2023-01-10 at 5.59.30 PM.png]]
+![Screenshot 2023-01-10 at 5 59 30 PM](https://user-images.githubusercontent.com/6153188/211883058-7ac4ebab-bf53-4ff6-9ae7-d9c91771b8b4.png)
 
 Notice our post has a relationship to admin user.
 
-![[Screenshot 2023-01-10 at 6.01.38 PM.png]]
+![Screenshot 2023-01-10 at 6 01 38 PM](https://user-images.githubusercontent.com/6153188/211883148-caab7ae6-f885-498d-8973-c73644ae4406.png)
 
 You can run th following command to see all available options:
 ``` bash
@@ -84,8 +84,10 @@ Export archive is in ../export-no-encrypt.tar.gz
 
 We will not have a ***export-no-encrypt.tar.gz*** file with the data.
 
-![[Screenshot 2023-01-10 at 5.42.20 PM.png]]
-You can unpack the file and take a look inside.![[Screenshot 2023-01-10 at 5.44.35 PM.png]]
+<img width="974" alt="Screenshot 2023-01-10 at 5 42 20 PM" src="https://user-images.githubusercontent.com/6153188/211883280-88b966dc-e6f4-4c34-b87f-2f705d57fdaf.png">
+
+You can unpack the file and take a look inside.<img width="905" alt="Screenshot 2023-01-10 at 5 44 35 PM" src="https://user-images.githubusercontent.com/6153188/211883336-caf30e6c-b032-44e8-9514-7772455bf20d.png">
+
 Our mane data will be stored in `JSONL` file format.
 
 Let's now delete our local database and files.
@@ -152,10 +154,11 @@ Import process has been completed successfully!
 
 Let's log back into our admin UI and see our data. When loging in you will have to create a new admin user since at the moment that data is not exported.
 
-![[Screenshot 2023-01-10 at 5.53.34 PM.png]]
+![Screenshot 2023-01-10 at 5 53 34 PM](https://user-images.githubusercontent.com/6153188/211883500-d6030e05-ac3b-4e2b-a8d0-3a3d5460c9b9.png)
 
 We can see here that our user realationship is mising.
 
-![[Screenshot 2023-01-10 at 5.54.40 PM.png]]
+![Screenshot 2023-01-10 at 5 54 40 PM](https://user-images.githubusercontent.com/6153188/211883554-6597bf35-ffac-4a87-84d8-e15239a23712.png)
+
 
 Currently the import does not generate your schema so your target Strapi project should have matching schema and content types.# strapi-deits-beta-v1
